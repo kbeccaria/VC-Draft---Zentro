@@ -8,13 +8,13 @@ http://www.tooplate.com/view/2076-zentro
 
 @font-face{
 	font-family: 'Staccato 222 BT';
-    src: local('Staccato 222 BT'), url(/fonts/staccato-222-bt.ttf);
+    src: local('Staccato 222 BT'), url(/Projects/VC-Draft---Zentro/fonts/staccato-222-bt.ttf);
 }
 
 
 body
 	{
-	font-family: 'Staccato 222 BT';
+	font-family: sans-serif;
 	background: #ffffff; 
     font-weight: 400;
     position: relative;
@@ -118,7 +118,8 @@ hr {
 }
 .navbar-default .navbar-brand  {
   color: #5C5C5C;
-  font-size: 22px;
+  font-family: 'Staccato 222 BT';
+  font-size: 44px;
   font-weight: bold;
   letter-spacing: 2px;
 }

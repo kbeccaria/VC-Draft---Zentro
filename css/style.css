@@ -130,9 +130,9 @@ hr {
 
 /* home section */
 #home {
-  background: url('../images/turkey.jpg') 50% 0 repeat-y fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: 80%;
+  background-size: 80% !important;
   background-position: center;
   color: #ffffff;
   display: -webkit-box;
@@ -258,13 +258,14 @@ hr {
 
 /* footer section */
 footer {
-  background: url('../images/footer-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/photo 1.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
   color: #ffffff;
   padding-top: 80px;
   padding-bottom: 80px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 footer h2 {
   padding-bottom: 14px;

@@ -130,9 +130,9 @@ hr {
 
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/Banner1.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: 80%;
-  background-size: 80% !important;
+  background-size: 150% !important;
   background-position: center;
   color: #ffffff;
   display: -webkit-box;

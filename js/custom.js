@@ -19,7 +19,7 @@ $(function(){
   function initParallax() {
     $('#home').parallax("100%", 0.1);
     $('#gallery').parallax("100%", 0.3);
-    $('#menu').parallax("100%", 0.2);
+    $('#classes').parallax("100%", 0.2);
     $('#team').parallax("100%", 0.3);
     $('#contact').parallax("100%", 0.1);
 

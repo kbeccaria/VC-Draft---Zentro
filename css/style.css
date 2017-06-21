@@ -11,6 +11,11 @@ http://www.tooplate.com/view/2076-zentro
     src: local('Staccato 222 BT'), url(../fonts/staccato-222-bt.ttf);
 }
 
+#logoImg{
+	margin-right: 25px;
+	float: left;
+	width: 50px;
+}
 
 body
 	{

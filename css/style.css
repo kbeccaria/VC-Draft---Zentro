@@ -6,6 +6,16 @@ http://www.tooplate.com/view/2076-zentro
 
 */
 
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
 @font-face{
 	font-family: 'Staccato 222 BT';
     src: local('Staccato 222 BT'), url(../fonts/staccato-222-bt.ttf);

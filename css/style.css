@@ -11,7 +11,7 @@ ul {
 }
 
 ul.dashList  li:before {
-  content: '\2014';
+  content: '–';
   position: absolute;
   margin-left: -20px;
 }

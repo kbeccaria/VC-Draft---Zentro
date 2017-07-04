@@ -210,6 +210,11 @@ hr {
   background-size: 100% !important;
 }
 
+.homeOneBG {
+  background: url('../images/herbs.jpg') 50% 0 repeat-y fixed !important;
+  background-size: 100% !important;
+}
+
 /* team section */
 #team {
   text-align: center;
@@ -300,7 +305,7 @@ hr {
 
 /* footer section */
 footer {
-  background: url('../images/photo 1.jpg') 50% 0 repeat-y fixed;
+  /* background: url('../images/photo 1.jpg') 50% 0 repeat-y fixed; */
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -308,6 +313,13 @@ footer {
   padding-top: 80px;
   padding-bottom: 80px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background:
+  linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url('../images/photo 1.jpg');
 }
 footer h2 {
   padding-bottom: 14px;

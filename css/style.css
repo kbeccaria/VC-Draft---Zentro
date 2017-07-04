@@ -169,6 +169,9 @@ hr {
   font-style: normal;
   padding-top: 10px;
 }
+#home h1, #home h2{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 #home .btn {
   background: transparent;
   border-radius: 0;
@@ -186,7 +189,7 @@ hr {
 }
 
 .homeKidsBG {
-  background: url('../images/cupcakes.jpg') 50% 0 repeat-y fixed !important;
+  background: url('../images/cupcakes.jpeg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
@@ -305,7 +308,6 @@ hr {
 
 /* footer section */
 footer {
-  /* background: url('../images/photo 1.jpg') 50% 0 repeat-y fixed; */
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -313,13 +315,7 @@ footer {
   padding-top: 80px;
   padding-bottom: 80px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  background:
-  linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ),
-    /* bottom, image */
-    url('../images/photo 1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/photo 1.jpg');
 }
 footer h2 {
   padding-bottom: 14px;

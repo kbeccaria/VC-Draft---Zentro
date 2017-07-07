@@ -18,6 +18,10 @@ ul.dashList  li:before {
   margin-left: -20px;
 }
 
+.yelpReview{
+  width: 175px;
+}
+
 @font-face{
 	font-family: 'Staccato 222 BT';
     src: local('Staccato 222 BT'), url(../fonts/staccato-222-bt.ttf);
@@ -168,6 +172,8 @@ hr {
   font-size: 45px !important;
   letter-spacing: 3px !important;
   padding-top: 10px !important;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white !important;
+  color: black;
 }
 #home h1 {
   font-size: 20px;
@@ -205,7 +211,7 @@ hr {
 }
 
 .homeTeamBG {
-  background: url('../images/spices.jpg') 50% 0 repeat-y fixed !important;
+  background: url('../images/teamBuildingBanner.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
@@ -220,7 +226,12 @@ hr {
 }
 
 .homeOneBG {
-  background: url('../images/herbs.jpg') 50% 0 repeat-y fixed !important;
+  background: url('../images/spices.jpg') 50% 0 repeat-y fixed !important;
+  background-size: 100% !important;
+}
+
+.homeReviewsBG {
+  background: url('../images/reviewsBanner.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 

@@ -163,6 +163,12 @@ hr {
   height: 100vh;
   text-align: center;
 }
+.vcFont{
+  font-family: 'Staccato 222 BT' !important;
+  font-size: 45px !important;
+  letter-spacing: 3px !important;
+  padding-top: 10px !important;
+}
 #home h1 {
   font-size: 20px;
   letter-spacing: 8px;

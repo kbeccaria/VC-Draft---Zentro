@@ -18,6 +18,10 @@ ul.dashList  li:before {
   margin-left: -20px;
 }
 
+.yelpReview{
+  width: 175px;
+}
+
 @font-face{
 	font-family: 'Staccato 222 BT';
     src: local('Staccato 222 BT'), url(../fonts/staccato-222-bt.ttf);
@@ -65,7 +69,7 @@ hr {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-#classes, #contact {
+#classes{
   background: #f0f0f0;
 }
 
@@ -136,7 +140,7 @@ hr {
 .navbar-default .navbar-brand  {
   color: #5C5C5C;
   font-family: 'Staccato 222 BT';
-  font-size: 44px;
+  font-size: 40px;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -162,6 +166,14 @@ hr {
           align-items: center;
   height: 100vh;
   text-align: center;
+}
+.vcFont{
+  font-family: 'Staccato 222 BT' !important;
+  font-size: 45px !important;
+  letter-spacing: 3px !important;
+  padding-top: 10px !important;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white !important;
+  color: black;
 }
 #home h1 {
   font-size: 20px;
@@ -189,32 +201,37 @@ hr {
 }
 
 .homeKidsBG {
-  background: url('../images/cupcakes.jpeg') 50% 0 repeat-y fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/cupcakes2.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
 .homeAboutBG {
-  background: url('../images/kitchenmain.jpg') 50% 0 repeat-y fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/kitchenmain.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
 .homeTeamBG {
-  background: url('../images/spices.jpg') 50% 0 repeat-y fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/teamBuildingBanner.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
 .homeFAQBG {
-  background: url('../images/asparagus.jpg') 50% 0 repeat-y fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/asparagus.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
 .homeGroupClassesBG {
-  background: url('../images/gallery-img2.jpg') 50% 0 repeat-y fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/gallery-img2.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
 .homeOneBG {
-  background: url('../images/herbs.jpg') 50% 0 repeat-y fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/spices.jpg') 50% 0 repeat-y fixed !important;
+  background-size: 100% !important;
+}
+
+.homeReviewsBG {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/reviewsBanner.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
@@ -268,42 +285,6 @@ hr {
 #gallery h3 {
   font-size: 18px;
   line-height: 8px;
-}
-
-/* contact section */
-#contact {
-  padding-top: 80px;
-  padding-bottom: 100px;
-}
-#contact .col-md-8 {
-  margin-bottom: 32px;
-}
-#contact .form-control {
-  background: #ffffff;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition: all 0.4s ease-in-out;
-}
-#contact .form-control:focus {
-  border-color: #f9f9f9;
-}
-#contact input {
-  height: 48px;
-}
-#contact input[type="submit"] {
-  background: transparent;
-  border: 2px solid #999;
-  border-radius: 10px;
-  letter-spacing: 2px;
-  margin-top: 12px;
-  height: 50px;
-}
-#contact input[type="submit"]:hover {
-  background: #999;
-  color: #ffffff;
 }
 
 /* footer section */

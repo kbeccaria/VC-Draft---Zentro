@@ -206,7 +206,7 @@ hr {
 }
 
 .homeAboutBG {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/kitchenmain.jpg') 50% 0 repeat-y fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/chefkeller.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
@@ -231,7 +231,7 @@ hr {
 }
 
 .homeReviewsBG {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/reviewsBanner.jpg') 50% 0 repeat-y fixed !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/kitchenmain.jpg') 50% 0 repeat-y fixed !important;
   background-size: 100% !important;
 }
 
